@@ -1,0 +1,567 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-05T13:29:03.330Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1298339500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.Definitions.AutoTest_Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Verify able to login with valid credentials",
+        "description": "",
+        "id": "log-in-feature;verify-able-to-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 232523300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.Definitions.AutoTest_Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18023524600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User on web page as \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 20
+                }
+              ],
+              "location": "qa.Definitions.LogIn_Defin.user_on_web_page_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5321001700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Click on Log_in Link",
+            "match": {
+              "location": "qa.Definitions.LogIn_Defin.user_click_on_log_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7423903000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter valid Credentials",
+            "match": {
+              "location": "qa.Definitions.LogIn_Defin.user_enter_valid_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24401400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify user able to logged-in.",
+            "match": {
+              "location": "qa.Definitions.LogIn_Defin.verify_user_able_to_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Log-in feature",
+    "description": "",
+    "id": "log-in-feature",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18163805500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on web page as \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 20
+                }
+              ],
+              "location": "qa.Definitions.LogIn_Defin.user_on_web_page_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19371454400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Click on Log_in Link",
+            "match": {
+              "location": "qa.Definitions.LogIn_Defin.user_click_on_log_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6031097600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter valid Credentials",
+            "match": {
+              "location": "qa.Definitions.LogIn_Defin.user_enter_valid_credentials()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-05T13:29:35.695Z",
+        "before": [
+          {
+            "result": {
+              "duration": 913237300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.Definitions.AutoTest_Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "",
+        "description": "",
+        "id": "searching-the--categories-and-subcategories;",
+        "after": [
+          {
+            "result": {
+              "duration": 291223500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.Definitions.AutoTest_Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18805819800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Srearch for main as Categories Women and SubCategories as T-shirts",
+            "match": {
+              "location": "qa.Definitions.Search_Defini.srearch_for_main_as_categories_women_and_sub_categories_as_t_shirts()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27542000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify page Title \"T-shirts - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"T-shirts - My Store\"",
+                  "offset": 18
+                }
+              ],
+              "location": "qa.Definitions.Search_Defini.verify_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15437161100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on web page as \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 20
+                }
+              ],
+              "location": "qa.Definitions.LogIn_Defin.user_on_web_page_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3526309700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Click on Log_in Link",
+            "match": {
+              "location": "qa.Definitions.LogIn_Defin.user_click_on_log_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3846360400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter valid Credentials",
+            "match": {
+              "location": "qa.Definitions.LogIn_Defin.user_enter_valid_credentials()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-05T13:30:39.313Z",
+        "before": [
+          {
+            "result": {
+              "duration": 852373500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.Definitions.AutoTest_Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "searching-the--categories-and-subcategories;",
+        "after": [
+          {
+            "result": {
+              "duration": 284315900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.Definitions.AutoTest_Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7666109000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Srearch for main as Categories Women and SubCategories as Evening Dresses",
+            "match": {
+              "location": "qa.Definitions.Search_Defini.srearch_for_main_as_categories_women_and_sub_categories_as_evening_dresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19691400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify page Title \"Evening Dresses - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Evening Dresses - My Store\"",
+                  "offset": 18
+                }
+              ],
+              "location": "qa.Definitions.Search_Defini.verify_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10647316200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on web page as \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 20
+                }
+              ],
+              "location": "qa.Definitions.LogIn_Defin.user_on_web_page_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3028652600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Click on Log_in Link",
+            "match": {
+              "location": "qa.Definitions.LogIn_Defin.user_click_on_log_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2714420000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter valid Credentials",
+            "match": {
+              "location": "qa.Definitions.LogIn_Defin.user_enter_valid_credentials()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-05T13:31:10.956Z",
+        "before": [
+          {
+            "result": {
+              "duration": 805322400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.Definitions.AutoTest_Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "",
+        "description": "",
+        "id": "searching-the--categories-and-subcategories;",
+        "after": [
+          {
+            "result": {
+              "duration": 282678100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.Definitions.AutoTest_Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4102370700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Srearch for main as Categories Dresses and SubCategories as Summer Dresses",
+            "match": {
+              "location": "qa.Definitions.Search_Defini.srearch_for_main_as_categories_dresses_and_sub_categories_as_summer_dresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22135800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify page Title \"Summer Dresses - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Summer Dresses - My Store\"",
+                  "offset": 18
+                }
+              ],
+              "location": "qa.Definitions.Search_Defini.verify_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8833018300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on web page as \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 20
+                }
+              ],
+              "location": "qa.Definitions.LogIn_Defin.user_on_web_page_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3611988700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Click on Log_in Link",
+            "match": {
+              "location": "qa.Definitions.LogIn_Defin.user_click_on_log_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4696426300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter valid Credentials",
+            "match": {
+              "location": "qa.Definitions.LogIn_Defin.user_enter_valid_credentials()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-05T13:31:32.571Z",
+        "before": [
+          {
+            "result": {
+              "duration": 923073000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.Definitions.AutoTest_Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "",
+        "description": "",
+        "id": "searching-the--categories-and-subcategories;",
+        "after": [
+          {
+            "result": {
+              "duration": 281237000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "qa.Definitions.AutoTest_Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8152047700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Srearch for main as Categories T-shirts and",
+            "match": {
+              "location": "qa.Definitions.Search_Defini.srearch_for_main_as_categories_t_shirts_and()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24063300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify page Title \"T-shirts - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"T-shirts - My Store\"",
+                  "offset": 18
+                }
+              ],
+              "location": "qa.Definitions.Search_Defini.verify_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Searching the  Categories and SubCategories",
+    "description": "",
+    "id": "searching-the--categories-and-subcategories",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/Search.feature",
+    "tags": []
+  }
+]

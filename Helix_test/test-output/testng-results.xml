@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-05T18:59:02 IST" name="Default suite" finished-at="2022-11-05T19:02:01 IST" duration-ms="178383">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.Definitions.AutoTest_TestRunner@247d8ae]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-11-05T18:59:02 IST" name="Default test" finished-at="2022-11-05T19:02:01 IST" duration-ms="178383">
+      <class name="qa.Definitions.AutoTest_TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:qa.Definitions.AutoTest_TestRunner@247d8ae]" started-at="2022-11-05T18:59:02 IST" name="setUpClass" finished-at="2022-11-05T18:59:03 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.Definitions.AutoTest_TestRunner@247d8ae]" started-at="2022-11-05T18:59:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-05T18:59:35 IST" duration-ms="32468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify able to login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Log-in feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.Definitions.AutoTest_TestRunner@247d8ae]" started-at="2022-11-05T18:59:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-05T19:00:39 IST" duration-ms="63617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Searching the  Categories and SubCategories]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.Definitions.AutoTest_TestRunner@247d8ae]" started-at="2022-11-05T19:00:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-05T19:01:10 IST" duration-ms="31647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Searching the  Categories and SubCategories]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.Definitions.AutoTest_TestRunner@247d8ae]" started-at="2022-11-05T19:01:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-05T19:01:32 IST" duration-ms="21614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Searching the  Categories and SubCategories]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.Definitions.AutoTest_TestRunner@247d8ae]" started-at="2022-11-05T19:01:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-05T19:01:59 IST" duration-ms="26533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Searching the  Categories and SubCategories]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:qa.Definitions.AutoTest_TestRunner@247d8ae]" started-at="2022-11-05T19:01:59 IST" name="tearDownClass" finished-at="2022-11-05T19:02:01 IST" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- qa.Definitions.AutoTest_TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
